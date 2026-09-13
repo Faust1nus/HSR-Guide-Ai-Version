@@ -18,6 +18,7 @@
 
       // Modal
       lang_modal_title: "Pilih Bahasa",
+      search_btn_text: "Cari...",
 
       // Section Titles
       section_trace: "Trace Priority",
@@ -93,6 +94,7 @@
 
       // Modal
       lang_modal_title: "Select Language",
+      search_btn_text: "Search...",
 
       // Section Titles
       section_trace: "Trace Priority",
