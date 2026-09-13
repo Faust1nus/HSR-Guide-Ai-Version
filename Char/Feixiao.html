@@ -6,6 +6,7 @@
     <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/1473303380360171574/1534155351308636291/1050245295327416390.webp?ex=6a731902&is=6a71c782&hm=e8f0a72e8efb6a49927cd60e86227d775140b2a60f67a8194d3ff2b409917104&=&format=webp">
     <title>Feixiao Guide Version 4.4</title>
     <link rel="stylesheet" href="style.css">
+    <script src="lang.js" defer></script>
 </head>
 <body>
 
@@ -18,15 +19,15 @@
                     <span class="brand-title">Feixiao Guide</span>
                 </a>
                 <nav>
-                    <a href="../index.html" class="active">← Main Page</a>
+                    <a href="../index.html" class="active" data-i18n="nav_back_main">← Main Page</a>
                     <span class="nav-divider">|</span>
-                    <a href="#Trace">Trace</a>
-                    <a href="#Light-Cone">Light Cone</a>
-                    <a href="#Relics">Relics</a>
-                    <a href="#Main-Stats">Main Stats</a>
-                    <a href="#Sub-Stats">Sub Stats</a>
-                    <a href="#Eidolon">Eidolon</a>
-                    <a href="#Team-Recommendations">Team</a>
+                    <a href="#Trace" data-i18n="nav_trace">Trace</a>
+                    <a href="#Light-Cone" data-i18n="nav_light_cone">Light Cone</a>
+                    <a href="#Relics" data-i18n="nav_relics">Relics</a>
+                    <a href="#Main-Stats" data-i18n="nav_main_stats">Main Stats</a>
+                    <a href="#Sub-Stats" data-i18n="nav_sub_stats">Sub Stats</a>
+                    <a href="#Eidolon" data-i18n="nav_eidolon">Eidolon</a>
+                    <a href="#Team-Recommendations" data-i18n="nav_team">Team</a>
                 </nav>
             </div>
         </header>
@@ -38,13 +39,13 @@
             </div>
             <div class="cover-hero-info">
                 <span class="badge">Version 4.4</span>
-                <h1>Guide Feixiao</h1>
+                <h1 data-i18n="feixiao_title">Guide Feixiao</h1>
                 <div class="char-card-tags">
                     <span class="tag wind">Wind</span>
                     <span class="tag">The Hunt</span>
                     <span class="tag">FUA DPS</span>
                 </div>
-                <p class="intro-lead">
+                <p class="intro-lead" data-i18n-html="feixiao_intro">
                     Feixiao adalah main DPS FUA, yang DMG utamanya berfokus di Ultimate, dan memiliki mekanik pengisian yang unik (bukan menggunakan energy biasa tetapi menggunakan <strong>hit count</strong>).
                 </p>
             </div>
@@ -53,7 +54,7 @@
         <!-- Main Content -->
         <article>
             <section id="Trace">
-                <h2>Trace Priority</h2>
+                <h2 data-i18n="section_trace">Trace Priority</h2>
                 <ol>
                     <li>Ultimate</li>
                     <li>Talent</li>
@@ -63,7 +64,7 @@
             </section>
 
             <section id="Light-Cone">
-                <h2>Light Cone Recommendations</h2>
+                <h2 data-i18n="section_light_cone">Light Cone Recommendations</h2>
                 <ol>
                     <li>I Venture Forth to Hunt (Signature)</li>
                     <li>Baptism of Pure Thought</li>
@@ -72,20 +73,20 @@
             </section>
 
             <section id="Relics">
-                <h2>Relics & Planar Sets</h2>
+                <h2 data-i18n="section_relics">Relics & Planar Sets</h2>
                 <ol>
-                    <li><strong>4 Set:</strong> Eagle of Twilight Line (Eagle Set)</li>
-                    <li><strong>2 Set Planar:</strong> Duran, Dynasty of Running Wolves</li>
+                    <li data-i18n-html="feixiao_relic_4set"><strong>4 Set:</strong> Eagle of Twilight Line (Eagle Set)</li>
+                    <li data-i18n-html="feixiao_relic_2set"><strong>2 Set Planar:</strong> Duran, Dynasty of Running Wolves</li>
                 </ol>
             </section>
 
             <section id="Main-Stats">
-                <h2>Main Stats</h2>
+                <h2 data-i18n="section_main_stats">Main Stats</h2>
                 <table>
                     <thead>
                         <tr>
-                            <th scope="col">Bagian Relic</th>
-                            <th scope="col">Main Stats</th>
+                            <th scope="col" data-i18n="table_relic_part">Bagian Relic</th>
+                            <th scope="col" data-i18n="table_main_stat">Main Stats</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -110,28 +111,28 @@
             </section>
 
             <section id="Sub-Stats">
-                <h2>Sub Stats Priority</h2>
+                <h2 data-i18n="section_sub_stats">Sub Stats Priority</h2>
                 <ol>
                     <li>CRIT Rate / CRIT DMG</li>
                     <li>ATK%</li>
                     <li>SPD</li>
                 </ol>
-                <div class="note-box">
+                <div class="note-box" data-i18n-html="feixiao_substat_note">
                     <strong>Note:</strong> SPD tidak terlalu penting kecuali pada case spesifik tertentu.
                 </div>
             </section>
 
             <section id="Eidolon">
-                <h2>Eidolon Priority</h2>
+                <h2 data-i18n="section_eidolon">Eidolon Priority</h2>
                 <p>E2 &gt; S1 &gt; E1</p>
-                <div class="intro-lead" style="margin-top: 12px; font-size: 0.95rem; border-left-color: var(--accent-cyan);">
+                <div class="intro-lead" style="margin-top: 12px; font-size: 0.95rem; border-left-color: var(--accent-cyan);" data-i18n="feixiao_eidolon_note">
                     E2 nya game changer parah! LC nya bagus, cuma kalau bisa langsung E2, disarankan langsung E2 aja karena peningkatan damage-nya jauh lebih gede.
                 </div>
             </section>
 
             <section id="Team-Recommendations">
-                <h2>Team Recommendations</h2>
-                <div class="note-box" style="margin-bottom: 16px;">
+                <h2 data-i18n="section_team">Team Recommendations</h2>
+                <div class="note-box" style="margin-bottom: 16px;" data-i18n-html="feixiao_team_note">
                     <strong>Note:</strong> Team Feixiao disarankan memakai karakter yang juga punya hit count banyak agar stack ultimate Feixiao cepat terisi.
                 </div>
                 <ul>
@@ -147,7 +148,7 @@
 
         <!-- Footer -->
         <footer>
-            <p>Created by FausT1nus • Feixiao Guide Version 4.4</p>
+            <p data-i18n="feixiao_footer">Created by FausT1nus • Feixiao Guide Version 4.4</p>
         </footer>
     </div>
 
